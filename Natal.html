@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Projeto4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>    
+</head>
+
+<body>
+
+    <!-- SEÇÃO DE TITULO E PRIMEIRO VIDEO-------------- -->
+
+    <section class="hero-section" id="hero">
+
+        <div class="video-background">
+            <video autoplay muted loop id="bgVideo">
+                <source src="https://cdn.pixabay.com/video/2022/07/10/123738-728686322_large.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1>Época de amor e esperança: Natal</h1>
+            <p>Natal é o abraço caloroso que toca a alma. Que o Natal traga serenidade e paz ao seu coração</p>
+
+            <a href="#videos" class="cta-button"> Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE IMAGENS E VIDEOS------------------- -->
+
+    <section class="videos-section" id="videos">
+        <h2> Momentos Natalinos</h2>
+        <div class="video-gallery">
+
+
+            <div class="video-frame" data-video-url="https://cdn.pixabay.com/video/2016/06/27/3565-172488151_large.mp4">
+                <img src="https://as1.ftcdn.net/v2/jpg/04/69/90/24/1000_F_469902424_X0XRFSD9QX25hozj3SmGRJ0HdgzTA8gF.jpg" alt="">
+                <div class="overlay">Clique para assistir</div>
+            </div>
+
+            <div class="video-frame" data-video-url="https://cdn.pixabay.com/video/2023/12/02/191724-891315404_large.mp4">
+                <img src="https://as2.ftcdn.net/v2/jpg/15/96/62/67/1000_F_1596626773_xLsaZ15EX5UsQfK9MBC1IbroNKLvqsMk.jpg" alt="">
+                <div class="overlay">Clique para assistir</div>
+            </div>
+
+            <div class="video-frame" data-video-url="https://cdn.pixabay.com/video/2022/12/01/141321-777508167_large.mp4">
+                <img src="https://as2.ftcdn.net/v2/jpg/02/92/94/67/1000_F_292946768_mXxkW8M8Vjr2FJiskTRiHdpTjvOt3Frg.jpg" alt="">
+                <div class="overlay">Clique para assistir</div>
+            </div>
+        </div>
+    </section>
+
+<!------SEÇÃO DE MAPA-------------------------------- -->
+
+<section class="mapa-section" id="mapa">
+    <h2>Onde estamos</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.791043573423!2d-46.34565452400407!3d-23.967828078522764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03c904b9f63b%3A0xa046ac788a4c5dfc!2sUnlimited%20Ocean%20Front!5e0!3m2!1spt-BR!2sbr!4v1765580928927!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+
+<div class="video-natalcomercial">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8FFqlYA9HmU?si=1pft4t_-j-sCu63B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<!-- ---------MOLDURA DE VIDEOS------------ -->
+
+<!-- Modal para Reprodução de Vídeo -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times; </span>
+            <!-- O iframe do vídeo será injetado aqui pelo JavaScript -->
+            <iframe id="modalVideoFrame" width="100%" height="100%" src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
